@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Button Style</title>
+</head>
+<body>
+
+    <section>
+        <h1>Button Style</h1>
+        <div id="container">
+            <div id="conteudo">
+
+                <h2>Controles</h2>
+
+                <form id="controles">
+                    <label for="texto">Text:</label>
+                    <input type="text" name="texto" id="texto">
+                    <label for="color">Color:</label>
+                    <input type="color" name="color" id="color">
+                    <label for="backgroundColor">Background-Color:</label>
+                    <input type="color" name="backgroundColor" id="backgroundColor">
+                    <label for="height">Height:</label>
+                    <input type="range" name="height" id="height" min="0" max="200">
+                    <label for="width">Width:</label>
+                    <input type="range" name="width" id="width" min="0" max="400">
+                    <label for="border">Border:</label>
+                    <input type="text" name="border" id="border" placeholder="ex: 1px solid black">
+                    <label for="borderRadius">Border-radius:</label>
+                    <input type="range" name="borderRadius" id="borderRadius" min="0" max="100">
+                    <select name="fontFamily" id="fontFamily">
+                        <option value="Arial">Arial</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Monospace">Monospace</option>
+                    </select>
+                    <label for="fontSize">Font-size:</label>
+                    <input type="number" name="fontSize" id="fontSize">
+                </form>
+            </div>
+
+            <div id="resultado">
+                <h2>Resultado</h2>
+                <button id="btn">Botão</button>
+                <pre><code id="css"></code></pre>
+            </div>
+        </div>
+    </section>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
